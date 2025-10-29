@@ -8,7 +8,7 @@ from PIL import Image
 import torch, io
 
 # Load model and processor once at startup
-MODEL_PATH = "trained_model"
+MODEL_PATH = r"C:\Users\gpoke\catsdogs\trained_model"
 processor = AutoImageProcessor.from_pretrained(MODEL_PATH)
 model = AutoModelForImageClassification.from_pretrained(MODEL_PATH)
 model.eval()
