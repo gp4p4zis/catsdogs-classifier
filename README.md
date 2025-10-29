@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## 🚀 Running the App
 ```bash
 # Start the FastAPI server
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 * The app will run at http://127.0.0.1:8000
 * Open this URL in your browser to see a simple image upload page.
@@ -41,4 +41,5 @@ uvicorn app:app --reload
 > You should see a prediction like:  
 > **“Predicted label:”** `Cat`  
 > **“Confidence:”** `92%`
+
 
