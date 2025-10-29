@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Model + data
+trained_model/
+dataset/images/
+*.csv
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Cache / logs
+__pycache__/
+*.log
+.cache/
+outputs/
+logs/
+
+# IDE files
+.vscode/
+.idea/
